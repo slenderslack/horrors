@@ -10,7 +10,7 @@ RUN npm ci --no-optional \
  && rm -rf node_modules .git
 
 # Set up runtime
-FROM atomist/skill:node14@sha256:aa51958caa3d96c3936e8baea59b5513a45a3a33d25b6dad13eebf90ae323fc5
+FROM atomist/skill:node14@sha256:f71ef2d83a7906347802fa923a98b409a60b565857d15134509bdf1e155d1b27
 
 # trivy
 ENV TRIVY_VERSION 0.19.2
